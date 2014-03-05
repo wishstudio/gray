@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {{! Document Settings }}
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA_Compatible" content="IE=edge" />
+
+    {{! Page Meta }}
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}" />
+
+    {{! Responsive Meta Tags }}
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    {{! Styles }}
+    <link rel="stylesheet" type="text/css" href="/assets/css/default.css" />
+
+    {{! Additional head data by ghost }
+    {{ghost_head}}
+</head>
+<body class="{{body_class}}">
+	{{> header}}
+    {{{body}}}
+    {{> footer}}
+
+    {{! Additional body footer by ghost }}
+    {{ghost_foot}}
+</body>
+</html>
