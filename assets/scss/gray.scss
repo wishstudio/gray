@@ -1,0 +1,108 @@
+@import 'variables';
+@import 'utilities';
+
+@mixin header-font {
+	font-family: $serif-font;
+	line-height: 1.313em;
+}
+
+body {
+	margin: 0;
+	font-family: $sans-font;
+	line-height: $golden;
+}
+
+.wrapper {
+	max-width: 58em;
+	margin: 0 auto;
+	padding-left: $golden * 2;
+	padding-right: $golden * 2;
+	padding-top: $golden;
+	padding-bottom: $golden;
+}
+.blog_main {
+	width: 100%;
+	background-color: $primary;
+
+	.wrapper {
+		background-color: white;
+	}
+}
+.blog_header {
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+.blog_footer {
+	background-color: $dark;
+}
+
+a {
+	background: transparent;
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: $link-color;
+}
+a:active, a:hover {
+	color: $hover-color;
+}
+
+blockquote {
+	background: $primary;
+	border-left: 0.5rem solid darken($primary, 20%);
+	margin: 0 0;
+	padding: 0rem 2rem;
+	font-style: italic;
+}
+
+pre {
+	background-color: $primary;
+	border: 0.063rem solid darken($primary, 10%);
+}
+
+hr {
+	border: 0;
+	border-top: 0.063rem solid $primary;
+}
+
+h1 {
+	@include header-font;
+	font-size: 3em;
+	margin: 0.563em 0;
+}
+
+h2 {
+	@include header-font;
+	font-size: 2.25em;
+	margin: 0.625em 0;
+}
+
+h3 {
+	@include header-font;
+	font-size: 1.5em;
+	margin: 1.313em 0;
+}
+
+h4 {
+	@include header-font;
+	font-size: 1.313em;
+	margin: 1.313em 0;
+}
+
+h5 {
+	@include header-font;
+	font-size: 1.125em;
+	margin: 1.313em 0;
+}
+
+h6 {
+	@include header-font;
+	font-size: 1em;
+	margin: 0.75em 0;
+}
+
+img {
+	border: 0;
+	max-width: 100%;
+}

@@ -1,23 +1,25 @@
 {{!< default}}
-<main class="content" role="main">
-    {{#foreach posts}}
-    <article role="article" class="{{post_class}}">
-        <header class="post-header">
-            <time class="post-time" datetime="{{date format='YYYY-MM-DD'}}">{{date format='MMM DD, YYYY'}}</time>
-            <h1 class="post-title"><a href="{{url}}">{{{title}}}</a></h1>
-        </header>
+<main class="blog_main" role="main">
+    <div class="wrapper">
+        {{#foreach posts}}
+        <article role="article" class="{{post_class}}">
+            <header class="post-header">
+                <time class="post-time" datetime="{{date format='YYYY-MM-DD'}}">{{date format='MMM DD, YYYY'}}</time>
+                <h1 class="post-title"><a href="{{url}}">{{{title}}}</a></h1>
+            </header>
 
-        <section class="post-excerpt">
-            <p>{{excerpt}}</p>
-        </section>
+            <section class="post-excerpt">
+                <p>{{excerpt}}</p>
+            </section>
 
-        {{#if tags}}
-        <section class="post-tags"
-            Tags: {{tags separator=" | "}}
-        </section>
-        {{/if}}
-    </article>
-    {{/foreach}}
+            {{#if tags}}
+            <section class="post-tags"
+                Tags: {{tags separator=" | "}}
+            </section>
+            {{/if}}
+        </article>
+        {{/foreach}}
 
-    {{{pagination}}}
+        {{{pagination}}}
+    </div>
 </main>

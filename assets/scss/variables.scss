@@ -1,0 +1,20 @@
+$gray-lightest:     #F8F8F8;
+$gray-lighter:      #EEEEEE;
+$gray-light:        #DDDDDD;
+$gray:              #CCCCCC;
+$gray-dark:         #999999;
+$gray-darker:       #666666;
+$gray-darkest:      #333333;
+
+$golden: 1.618em;
+
+$primary:        #F4EEE2;
+$secondary:      #FEF2F2;
+$dark:           #333333;
+$bright:         #FE3333;
+
+$hover-color: $bright;
+$link-color: darken($hover-color, 30%);
+
+$sans-font: Arial, Helvetica, sans-serif;
+$serif-font: Arial, Helvetica, sans-serif;

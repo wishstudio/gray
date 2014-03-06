@@ -1,5 +1,9 @@
-<div role="banner" class="blog_header">
-    {{#if @blog.logo}}<a class="logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{{@blog.title}}}" /></a>{{/if}}
-    <h1 class="blog_title"><a title="{{@blog.title}}" href="{{@blog.url}}">{{{@blog.title}}}</a></h1>
-    <p class="blog_description">{{@blog.description}}</p>
-</div>
+<header class="blog_header">
+<nav role="navigation">
+    <div class="wrapper">
+        {{#if @blog.logo}}<a class="logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{{@blog.title}}}" /></a>{{/if}}
+        <h1 class="blog_title"><a title="{{@blog.title}}" href="{{@blog.url}}">{{{@blog.title}}}</a></h1>
+        <p class="blog_description">{{@blog.description}}</p>
+    </div>
+</nav>
+</header>
