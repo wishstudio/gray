@@ -16,5 +16,6 @@ $bright:         #FE3333;
 $hover-color: $bright;
 $link-color: darken($hover-color, 30%);
 
-$sans-font: Arial, Helvetica, sans-serif;
-$serif-font: Arial, Helvetica, sans-serif;
+$sans-font: 'Roboto', sans-serif;
+$serif-font: 'Gentium Basic', serif;
+$monospace-font: 'Inconsolata', monospace;

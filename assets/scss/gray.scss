@@ -2,18 +2,19 @@
 @import 'utilities';
 
 @mixin header-font {
-	font-family: $serif-font;
+	font-family: $sans-font;
 	line-height: 1.313em;
 }
 
 body {
 	margin: 0;
-	font-family: $sans-font;
+	font-family: $serif-font;
+	font-size: 1.2em;
 	line-height: $golden;
 }
 
 .wrapper {
-	max-width: 58em;
+	max-width: 50rem;
 	margin: 0 auto;
 	padding-left: $golden * 2;
 	padding-right: $golden * 2;
@@ -54,6 +55,10 @@ blockquote {
 	margin: 0 0;
 	padding: 0rem 2rem;
 	font-style: italic;
+}
+
+code {
+	font-family: $monospace-font;
 }
 
 pre {
