@@ -1,9 +1,13 @@
-<header class="blog_header">
-<nav role="navigation">
+<header class="blog-header">
     <div class="wrapper">
         {{#if @blog.logo}}<a class="logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{{@blog.title}}}" /></a>{{/if}}
-        <h1 class="blog_title"><a title="{{@blog.title}}" href="{{@blog.url}}">{{{@blog.title}}}</a></h1>
-        <p class="blog_description">{{@blog.description}}</p>
+        <h1 class="blog-title"><a title="{{@blog.title}}" href="{{@blog.url}}">{{{@blog.title}}}</a></h1>
+        <p class="blog-description">{{@blog.description}}</p>
     </div>
-</nav>
+    <nav role="navigation" class="blog-navigation">
+        <div class="wrapper">
+            <a href="/">Home</a>
+            {{> social}}
+        </div>
+    </nav>
 </header>

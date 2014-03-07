@@ -13,22 +13,27 @@ body {
 	margin: 0 auto;
 	padding-left: $golden * 2;
 	padding-right: $golden * 2;
-	padding-top: $golden;
-	padding-bottom: $golden;
 }
-.blog_main {
+.blog-main {
 	width: 100%;
 	background-color: $primary;
 
 	.wrapper {
+		padding-top: $golden;
+		padding-bottom: $golden;
 		background-color: white;
 	}
 }
-.blog_header {
+.blog-header {
 	margin: 0 auto;
-	background-color: $secondary;
+	background-color: $header;
+
+	.wrapper {
+		padding-top: 0.1em;
+		padding-bottom: 0;
+	}
 }
-.blog_footer {
+.blog-footer {
 	text-align: right;
 	background-color: $dark;
 	color: $gray-darker;
@@ -37,6 +42,29 @@ body {
 	}
 	a:active, a:hover {
 		color: white;
+	}
+	.wrapper {
+		padding-top: $golden / 2;
+		padding-bottom: $golden / 2;
+	}
+}
+.blog-navigation {
+	background-color: $navigation;
+	border-top: 0.1rem solid darken($navigation, 5%);
+	border-bottom: 0.1rem solid darken($navigation, 2%);
+	.wrapper {
+		padding-top: 0.1rem;
+		padding-bottom: 0.1rem;
+	}
+}
+.social-links {
+	float: right;
+	font-size: 0.75em;
+	a:link, a:visited {
+		color: $gray-dark;
+	}
+	a:active, a:hover {
+		color: $bright;
 	}
 }
 
@@ -79,7 +107,10 @@ hr {
 	font-family: $sans-font;
 	font-weight: lighter;
 	line-height: 1.313em;
-	a:link, a:visited, a:active, a:hover {
+	a:link, a:visited {
+		color: black;
+	}
+	a:active, a:hover {
 		color: $bright;
 	}
 }

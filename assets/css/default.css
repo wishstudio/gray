@@ -8,28 +8,50 @@ body {
   max-width: 50rem;
   margin: 0 auto;
   padding-left: 3.236em;
-  padding-right: 3.236em;
-  padding-top: 1.618em;
-  padding-bottom: 1.618em; }
+  padding-right: 3.236em; }
 
-.blog_main {
+.blog-main {
   width: 100%;
   background-color: #f4eee2; }
-  .blog_main .wrapper {
+  .blog-main .wrapper {
+    padding-top: 1.618em;
+    padding-bottom: 1.618em;
     background-color: white; }
 
-.blog_header {
+.blog-header {
   margin: 0 auto;
-  background-color: #f0f7ff; }
+  background-color: #dddddd; }
+  .blog-header .wrapper {
+    padding-top: 0.1em;
+    padding-bottom: 0; }
 
-.blog_footer {
+.blog-footer {
   text-align: right;
   background-color: #112233;
   color: #666666; }
-  .blog_footer a:link, .blog_footer a:visited {
+  .blog-footer a:link, .blog-footer a:visited {
     color: #999999; }
-  .blog_footer a:active, .blog_footer a:hover {
+  .blog-footer a:active, .blog-footer a:hover {
     color: white; }
+  .blog-footer .wrapper {
+    padding-top: 0.809em;
+    padding-bottom: 0.809em; }
+
+.blog-navigation {
+  background-color: #f7f7f7;
+  border-top: 0.1rem solid #eaeaea;
+  border-bottom: 0.1rem solid #f1f1f1; }
+  .blog-navigation .wrapper {
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem; }
+
+.social-links {
+  float: right;
+  font-size: 0.75em; }
+  .social-links a:link, .social-links a:visited {
+    color: #999999; }
+  .social-links a:active, .social-links a:hover {
+    color: #ff622b; }
 
 a {
   -webkit-transition: 0.3s;
@@ -70,7 +92,9 @@ h1 {
   line-height: 1.313em;
   font-size: 3em;
   margin: 0.563em 0; }
-  h1 a:link, h1 a:visited, h1 a:active, h1 a:hover {
+  h1 a:link, h1 a:visited {
+    color: black; }
+  h1 a:active, h1 a:hover {
     color: #ff622b; }
 
 h2 {
@@ -79,7 +103,9 @@ h2 {
   line-height: 1.313em;
   font-size: 2.25em;
   margin: 0.625em 0; }
-  h2 a:link, h2 a:visited, h2 a:active, h2 a:hover {
+  h2 a:link, h2 a:visited {
+    color: black; }
+  h2 a:active, h2 a:hover {
     color: #ff622b; }
 
 h3 {
@@ -88,7 +114,9 @@ h3 {
   line-height: 1.313em;
   font-size: 1.5em;
   margin: 1.313em 0; }
-  h3 a:link, h3 a:visited, h3 a:active, h3 a:hover {
+  h3 a:link, h3 a:visited {
+    color: black; }
+  h3 a:active, h3 a:hover {
     color: #ff622b; }
 
 h4 {
@@ -97,7 +125,9 @@ h4 {
   line-height: 1.313em;
   font-size: 1.313em;
   margin: 1.313em 0; }
-  h4 a:link, h4 a:visited, h4 a:active, h4 a:hover {
+  h4 a:link, h4 a:visited {
+    color: black; }
+  h4 a:active, h4 a:hover {
     color: #ff622b; }
 
 h5 {
@@ -106,7 +136,9 @@ h5 {
   line-height: 1.313em;
   font-size: 1.125em;
   margin: 1.313em 0; }
-  h5 a:link, h5 a:visited, h5 a:active, h5 a:hover {
+  h5 a:link, h5 a:visited {
+    color: black; }
+  h5 a:active, h5 a:hover {
     color: #ff622b; }
 
 h6 {
@@ -115,7 +147,9 @@ h6 {
   line-height: 1.313em;
   font-size: 1em;
   margin: 0.75em 0; }
-  h6 a:link, h6 a:visited, h6 a:active, h6 a:hover {
+  h6 a:link, h6 a:visited {
+    color: black; }
+  h6 a:active, h6 a:hover {
     color: #ff622b; }
 
 img {
