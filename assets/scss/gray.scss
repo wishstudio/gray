@@ -1,11 +1,6 @@
 @import 'variables';
 @import 'utilities';
 
-@mixin header-font {
-	font-family: $sans-font;
-	line-height: 1.313em;
-}
-
 body {
 	margin: 0;
 	font-family: $serif-font;
@@ -31,27 +26,36 @@ body {
 }
 .blog_header {
 	margin: 0 auto;
-	background-color: #FFFFFF;
+	background-color: $secondary;
 }
 .blog_footer {
+	text-align: right;
 	background-color: $dark;
+	color: $gray-darker;
+	a:link, a:visited {
+		color: $gray-dark;
+	}
+	a:active, a:hover {
+		color: white;
+	}
 }
 
 a {
+	@include transition(0.3s);
 	background: transparent;
 	text-decoration: none;
 }
 
 a:link, a:visited {
-	color: $link-color;
+	color: darken($secondary, 30%);
 }
 a:active, a:hover {
-	color: $hover-color;
+	color: $bright;
 }
 
 blockquote {
-	background: $primary;
-	border-left: 0.5rem solid darken($primary, 20%);
+	background: $secondary;
+	border-left: 0.5rem solid darken($secondary, 10%);
 	margin: 0 0;
 	padding: 0rem 2rem;
 	font-style: italic;
@@ -62,13 +66,21 @@ code {
 }
 
 pre {
-	background-color: $primary;
-	border: 0.063rem solid darken($primary, 10%);
+	background-color: $secondary;
+	border: 0.063rem solid darken($secondary, 10%);
 }
 
 hr {
 	border: 0;
 	border-top: 0.063rem solid $primary;
+}
+
+@mixin header-font {
+	font-family: $sans-font;
+	line-height: 1.313em;
+	a:link, a:visited, a:active, a:hover {
+		color: $solid;
+	}
 }
 
 h1 {
