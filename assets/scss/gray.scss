@@ -35,6 +35,7 @@ body {
 }
 .blog-footer {
 	text-align: right;
+	font-size: 0.9em;
 	background-color: $dark;
 	color: $gray-darker;
 	a:link, a:visited {
@@ -109,7 +110,7 @@ hr {
 @mixin header-font {
 	font-family: $sans-font;
 	font-weight: lighter;
-	line-height: 1.313em;
+	line-height: 0.8em;
 	a:link, a:visited {
 		color: black;
 	}
