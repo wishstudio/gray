@@ -2,20 +2,20 @@ body {
   margin: 0;
   font-family: "Gentium Basic", serif;
   font-size: 1.2em;
-  line-height: 1.618em; }
+  line-height: 1.618rem; }
 
 .wrapper {
   max-width: 50rem;
   margin: 0 auto;
-  padding-left: 3.236em;
-  padding-right: 3.236em; }
+  padding-left: 3.236rem;
+  padding-right: 3.236rem; }
 
 .blog-main {
   width: 100%;
   background-color: #f4eee2; }
   .blog-main .wrapper {
-    padding-top: 1.618em;
-    padding-bottom: 1.618em;
+    padding-top: 1.618rem;
+    padding-bottom: 1.618rem;
     background-color: white; }
 
 .blog-header {
@@ -34,16 +34,16 @@ body {
   .blog-footer a:active, .blog-footer a:hover {
     color: white; }
   .blog-footer .wrapper {
-    padding-top: 0.809em;
-    padding-bottom: 0.809em; }
+    padding-top: 0.809rem;
+    padding-bottom: 0.809rem; }
 
 .blog-navigation {
   background-color: #f7f7f7;
   border-top: 0.1rem solid #eaeaea;
   border-bottom: 0.1rem solid #f1f1f1; }
   .blog-navigation .wrapper {
-    padding-top: 0.1rem;
-    padding-bottom: 0.1rem; }
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem; }
 
 .social-links {
   float: right;
@@ -52,6 +52,9 @@ body {
     color: #999999; }
   .social-links a:active, .social-links a:hover {
     color: #ff622b; }
+
+.post-info {
+  font-size: 0.9em; }
 
 a {
   -webkit-transition: 0.3s;

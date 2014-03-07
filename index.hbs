@@ -4,19 +4,17 @@
         {{#foreach posts}}
         <article role="article" class="{{post_class}}">
             <header class="post-header">
-                <time class="post-time" datetime="{{date format='YYYY-MM-DD'}}">{{date format='MMM DD, YYYY'}}</time>
                 <h1 class="post-title"><a href="{{url}}">{{{title}}}</a></h1>
+                <section class="post-info">
+                    <i class="fa fa-pencil"></i>
+                    <time class="post-time" datetime="{{date format='YYYY-MM-DD'}}">{{date format='MMM DD, YYYY'}}</time> 
+                    <span class="post-tags">{{tags prefix="on "}}</span>
+                </section>
             </header>
 
             <section class="post-excerpt">
                 <p>{{excerpt}}...</p>
             </section>
-
-            {{#if tags}}
-            <section class="post-tags"
-                Tags: {{tags separator=" | "}}
-            </section>
-            {{/if}}
 
             <a href="{{url}}">READ MORE</a>
             <hr />

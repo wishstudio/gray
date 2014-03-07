@@ -53,8 +53,8 @@ body {
 	border-top: 0.1rem solid darken($navigation, 5%);
 	border-bottom: 0.1rem solid darken($navigation, 2%);
 	.wrapper {
-		padding-top: 0.1rem;
-		padding-bottom: 0.1rem;
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
 	}
 }
 .social-links {
@@ -66,6 +66,9 @@ body {
 	a:active, a:hover {
 		color: $bright;
 	}
+}
+.post-info {
+	font-size: 0.9em;
 }
 
 a {
