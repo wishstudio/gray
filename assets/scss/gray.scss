@@ -77,9 +77,10 @@ hr {
 
 @mixin header-font {
 	font-family: $sans-font;
+	font-weight: lighter;
 	line-height: 1.313em;
 	a:link, a:visited, a:active, a:hover {
-		color: $solid;
+		color: $bright;
 	}
 }
 

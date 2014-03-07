@@ -9,7 +9,7 @@
             </header>
 
             <section class="post-excerpt">
-                <p>{{excerpt}}</p>
+                <p>{{excerpt}}...</p>
             </section>
 
             {{#if tags}}
@@ -17,6 +17,8 @@
                 Tags: {{tags separator=" | "}}
             </section>
             {{/if}}
+
+            <a href="{{url}}">READ MORE</a>
             <hr />
         </article>
         {{/foreach}}
