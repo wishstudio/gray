@@ -15,11 +15,13 @@ body {
 
 .blog-main {
   width: 100%;
-  background-color: #f4eee2; }
+  background-color: #eeeeee; }
   .blog-main .wrapper {
     padding-top: 1.618rem;
     padding-bottom: 1.618rem;
-    background-color: white; }
+    background-color: white;
+    border-left: 0.1rem solid #f6f6f6;
+    border-right: 0.1rem solid #f6f6f6; }
 
 .blog-header {
   margin: 0 auto;
@@ -102,7 +104,7 @@ pre {
 
 hr {
   border: 0;
-  border-top: 0.063rem solid #f4eee2; }
+  border-top: 0.063rem solid #eeeeee; }
 
 h1 {
   font-family: "Open Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;

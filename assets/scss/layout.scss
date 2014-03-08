@@ -23,6 +23,8 @@ body {
 		padding-top: $golden;
 		padding-bottom: $golden;
 		background-color: white;
+		border-left: 0.1rem solid lighten($primary, 3%);
+		border-right: 0.1rem solid lighten($primary, 3%);
 	}
 }
 .blog-header {
