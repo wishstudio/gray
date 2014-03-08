@@ -16,6 +16,7 @@ $header:         #DDDDDD;
 
 $navigation:     lighten($header, 10%);
 
-$sans-font: 'Rosario', sans-serif;
-$serif-font: 'Gentium Basic', serif;
+$chinese-font: 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei';
+$sans-font: 'Rosario', $chinese-font, sans-serif;
+$serif-font: 'Gentium Basic', $chinese-font, serif;
 $monospace-font: 'Inconsolata', monospace;
