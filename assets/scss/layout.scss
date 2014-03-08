@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+	font-family: $serif-font;
+	font-size: 1.2em;
+	line-height: $golden;
+	word-wrap: break-word;
+}
+
+.wrapper {
+	max-width: 50rem;
+	margin: 0 auto;
+	padding-left: $golden * 2;
+	padding-right: $golden * 2;
+}
+.blog-main {
+	width: 100%;
+	background-color: $primary;
+
+	.wrapper {
+		padding-top: $golden;
+		padding-bottom: $golden;
+		background-color: white;
+	}
+}
+.blog-header {
+	margin: 0 auto;
+	background-color: $header;
+
+	.wrapper {
+		padding-top: 0.1em;
+		padding-bottom: 0;
+	}
+}
+.blog-footer {
+	text-align: right;
+	font-size: 0.9em;
+	background-color: $dark;
+	color: $gray-darker;
+	.wrapper {
+		padding-top: $golden / 2;
+		padding-bottom: $golden / 2;
+	}
+	@include link-color($gray-dark, white);
+}
+.blog-navigation {
+	background-color: $navigation;
+	border-top: 0.1rem solid darken($navigation, 5%);
+	border-bottom: 0.1rem solid darken($navigation, 2%);
+	.wrapper {
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
+	}
+}
+.social-links {
+	float: right;
+	font-size: 0.75em;
+	@include link-color($gray-dark, $bright);
+}
+.post-info {
+	font-size: 0.9em;
+}

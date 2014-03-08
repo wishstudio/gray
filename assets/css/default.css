@@ -2,7 +2,8 @@ body {
   margin: 0;
   font-family: "Gentium Basic", serif;
   font-size: 1.2em;
-  line-height: 1.618rem; }
+  line-height: 1.618rem;
+  word-wrap: break-word; }
 
 .wrapper {
   max-width: 50rem;
@@ -30,13 +31,13 @@ body {
   font-size: 0.9em;
   background-color: #112233;
   color: #666666; }
+  .blog-footer .wrapper {
+    padding-top: 0.809rem;
+    padding-bottom: 0.809rem; }
   .blog-footer a:link, .blog-footer a:visited {
     color: #999999; }
   .blog-footer a:active, .blog-footer a:hover {
     color: white; }
-  .blog-footer .wrapper {
-    padding-top: 0.809rem;
-    padding-bottom: 0.809rem; }
 
 .blog-navigation {
   background-color: #f7f7f7;

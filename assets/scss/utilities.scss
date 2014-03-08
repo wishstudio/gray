@@ -1,3 +1,12 @@
+@mixin link-color($normal, $hover) {
+  a:link, a:visited {
+    color: $normal;
+  }
+  a:active, a:hover {
+    color: $hover;
+  }
+}
+
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
