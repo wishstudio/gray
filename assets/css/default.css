@@ -3,7 +3,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Gentium Basic", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", serif;
+  font-family: "Verdana", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", serif;
   line-height: 1.618rem;
   word-wrap: break-word; }
 
@@ -94,7 +94,7 @@ blockquote {
   font-style: italic; }
 
 code {
-  font-family: "Inconsolata", monospace; }
+  font-family: monospace; }
 
 pre {
   background-color: #f0f7ff;
@@ -105,7 +105,7 @@ hr {
   border-top: 0.063rem solid #f4eee2; }
 
 h1 {
-  font-family: "Rosario", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Open Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-weight: lighter;
   line-height: 1em;
   font-size: 2.5em;
@@ -116,7 +116,7 @@ h1 {
     color: #ff622b; }
 
 h2 {
-  font-family: "Rosario", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Open Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-weight: lighter;
   line-height: 1em;
   font-size: 2em;
@@ -127,7 +127,7 @@ h2 {
     color: #ff622b; }
 
 h3 {
-  font-family: "Rosario", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Open Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-weight: lighter;
   line-height: 1em;
   font-size: 1.5em;
@@ -138,7 +138,7 @@ h3 {
     color: #ff622b; }
 
 h4 {
-  font-family: "Rosario", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Open Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-weight: lighter;
   line-height: 1em;
   font-size: 1.313em;
@@ -149,7 +149,7 @@ h4 {
     color: #ff622b; }
 
 h5 {
-  font-family: "Rosario", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Open Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-weight: lighter;
   line-height: 1em;
   font-size: 1.125em;
@@ -160,7 +160,7 @@ h5 {
     color: #ff622b; }
 
 h6 {
-  font-family: "Rosario", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Open Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-weight: lighter;
   line-height: 1em;
   font-size: 1em;
