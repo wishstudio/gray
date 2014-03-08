@@ -1,12 +1,14 @@
+html {
+  font-size: 1em; }
+
 body {
   margin: 0;
   font-family: "Gentium Basic", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", serif;
-  font-size: 1.1em;
   line-height: 1.618rem;
   word-wrap: break-word; }
 
 .wrapper {
-  max-width: 42rem;
+  max-width: 37rem;
   margin: 0 auto;
   padding-left: 3.236rem;
   padding-right: 3.236rem; }
@@ -58,7 +60,7 @@ body {
 .post-info {
   font-size: 0.9em; }
 
-@media (max-width: 36rem) {
+@media (max-width: 32rem) {
   .social-links:before {
     content: "\A";
     white-space: pre; }

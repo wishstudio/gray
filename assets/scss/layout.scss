@@ -1,13 +1,16 @@
+html {
+	font-size: 1em;
+}
+
 body {
 	margin: 0;
 	font-family: $serif-font;
-	font-size: 1.1em;
 	line-height: $golden;
 	word-wrap: break-word;
 }
 
 .wrapper {
-	max-width: 42rem;
+	max-width: 37rem;
 	margin: 0 auto;
 	padding-left: $golden * 2;
 	padding-right: $golden * 2;
