@@ -58,6 +58,13 @@ body {
 .post-info {
   font-size: 0.9em; }
 
+@media (max-width: 36rem) {
+  .social-links:before {
+    content: "\A";
+    white-space: pre; }
+
+  .social-links {
+    float: none; } }
 a {
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;

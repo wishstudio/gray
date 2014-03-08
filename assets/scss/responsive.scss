@@ -1,0 +1,9 @@
+@media (max-width: 36rem) {
+	.social-links:before {
+		content: "\A";
+		white-space: pre;
+	}
+	.social-links {
+		float: none;
+	}
+}
