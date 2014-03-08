@@ -101,9 +101,9 @@ hr {
 h1 {
   font-family: "Rosario", sans-serif;
   font-weight: lighter;
-  line-height: 0.8em;
-  font-size: 3em;
-  margin: 0.563em 0; }
+  line-height: 1em;
+  font-size: 2.5em;
+  margin: 0.75em 0; }
   h1 a:link, h1 a:visited {
     color: black; }
   h1 a:active, h1 a:hover {
@@ -112,9 +112,9 @@ h1 {
 h2 {
   font-family: "Rosario", sans-serif;
   font-weight: lighter;
-  line-height: 0.8em;
-  font-size: 2.25em;
-  margin: 0.625em 0; }
+  line-height: 1em;
+  font-size: 2em;
+  margin: 0.5em 0; }
   h2 a:link, h2 a:visited {
     color: black; }
   h2 a:active, h2 a:hover {
@@ -123,9 +123,9 @@ h2 {
 h3 {
   font-family: "Rosario", sans-serif;
   font-weight: lighter;
-  line-height: 0.8em;
+  line-height: 1em;
   font-size: 1.5em;
-  margin: 1.313em 0; }
+  margin: 1em 0; }
   h3 a:link, h3 a:visited {
     color: black; }
   h3 a:active, h3 a:hover {
@@ -134,9 +134,9 @@ h3 {
 h4 {
   font-family: "Rosario", sans-serif;
   font-weight: lighter;
-  line-height: 0.8em;
+  line-height: 1em;
   font-size: 1.313em;
-  margin: 1.313em 0; }
+  margin: 1em 0; }
   h4 a:link, h4 a:visited {
     color: black; }
   h4 a:active, h4 a:hover {
@@ -145,9 +145,9 @@ h4 {
 h5 {
   font-family: "Rosario", sans-serif;
   font-weight: lighter;
-  line-height: 0.8em;
+  line-height: 1em;
   font-size: 1.125em;
-  margin: 1.313em 0; }
+  margin: 1em 0; }
   h5 a:link, h5 a:visited {
     color: black; }
   h5 a:active, h5 a:hover {
@@ -156,9 +156,9 @@ h5 {
 h6 {
   font-family: "Rosario", sans-serif;
   font-weight: lighter;
-  line-height: 0.8em;
+  line-height: 1em;
   font-size: 1em;
-  margin: 0.75em 0; }
+  margin: 1.313em 0; }
   h6 a:link, h6 a:visited {
     color: black; }
   h6 a:active, h6 a:hover {
