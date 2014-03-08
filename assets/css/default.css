@@ -64,7 +64,11 @@ body {
     white-space: pre; }
 
   .social-links {
-    float: none; } }
+    float: none; }
+
+  .wrapper {
+    padding-left: 0.809rem;
+    padding-right: 0.809rem; } }
 a {
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
