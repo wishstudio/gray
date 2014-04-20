@@ -1425,11 +1425,16 @@ blockquote {
   font-style: italic; }
 
 code {
-  font-family: monospace; }
+  font-family: monospace;
+  background-color: #f0f7ff;
+  border: 0.063rem solid #bddcff; }
 
 pre {
   background-color: #f0f7ff;
   border: 0.063rem solid #bddcff; }
+
+pre code {
+  border: none; }
 
 hr {
   border: 0;
