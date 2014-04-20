@@ -57,9 +57,6 @@ body {
 	}
 }
 .social-links {
-	float: right;
-	font-size: 0.75em;
-	@include link-color($gray-dark, $bright);
 }
 .post-info {
 	font-size: 0.9em;

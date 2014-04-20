@@ -1380,25 +1380,10 @@ body {
     padding-top: 0.2rem;
     padding-bottom: 0.2rem; }
 
-.social-links {
-  float: right;
-  font-size: 0.75em; }
-  .social-links a:link, .social-links a:visited {
-    color: #999999; }
-  .social-links a:active, .social-links a:hover {
-    color: #ff622b; }
-
 .post-info {
   font-size: 0.9em; }
 
 @media (max-width: 32rem) {
-  .social-links:before {
-    content: "\A";
-    white-space: pre; }
-
-  .social-links {
-    float: none; }
-
   .wrapper {
     padding-left: 0.809rem;
     padding-right: 0.809rem; } }

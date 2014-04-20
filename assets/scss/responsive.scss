@@ -1,11 +1,4 @@
 @media (max-width: 32rem) {
-	.social-links:before {
-		content: "\A";
-		white-space: pre;
-	}
-	.social-links {
-		float: none;
-	}
 	.wrapper {
 		padding-left: $golden / 2;
 		padding-right: $golden / 2;
