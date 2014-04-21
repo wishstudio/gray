@@ -1382,6 +1382,18 @@ body {
     padding-top: 0.2rem;
     padding-bottom: 0.2rem; }
 
+.blog-navigation-hidetop {
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -ms-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  float: right;
+  opacity: 0; }
+
+.is-sticky .blog-navigation-hidetop {
+  opacity: 1; }
+
 .post-info {
   font-size: 0.9em; }
 
@@ -1390,11 +1402,11 @@ body {
     padding-left: 0.809rem;
     padding-right: 0.809rem; } }
 a {
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
   background: transparent;
   text-decoration: none; }
 

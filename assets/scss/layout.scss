@@ -58,6 +58,14 @@ body {
 		padding-bottom: 0.2rem;
 	}
 }
+.blog-navigation-hidetop {
+	@include transition(opacity, 0.3s);
+	float: right;
+	opacity: 0;
+}
+.is-sticky .blog-navigation-hidetop {
+	opacity: 1;
+}
 .social-links {
 }
 .post-info {

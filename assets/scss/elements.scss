@@ -1,5 +1,5 @@
 a {
-	@include transition(0.3s);
+	@include transition(color, 0.3s);
 	background: transparent;
 	text-decoration: none;
 }

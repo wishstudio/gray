@@ -15,10 +15,10 @@
           border-radius: $radius;
 }
 
-@mixin transition($time) {
-  -webkit-transition: $time;
-     -moz-transition: $time;
-      -ms-transition: $time;
-       -o-transition: $time;
-          transition: $time;
+@mixin transition($attr, $time) {
+  -webkit-transition: $attr $time;
+     -moz-transition: $attr $time;
+      -ms-transition: $attr $time;
+       -o-transition: $attr $time;
+          transition: $attr $time;
 }
