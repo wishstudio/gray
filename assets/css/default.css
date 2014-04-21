@@ -1373,6 +1373,8 @@ body {
     color: white; }
 
 .blog-navigation {
+  left: 0;
+  right: 0;
   background-color: #f7f7f7;
   border-top: 0.1rem solid #eaeaea;
   border-bottom: 0.1rem solid #f1f1f1; }

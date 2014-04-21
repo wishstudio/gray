@@ -48,6 +48,8 @@ body {
 	@include link-color($gray-dark, white);
 }
 .blog-navigation {
+	left: 0;
+	right: 0;
 	background-color: $navigation;
 	border-top: 0.1rem solid darken($navigation, 5%);
 	border-bottom: 0.1rem solid darken($navigation, 2%);
