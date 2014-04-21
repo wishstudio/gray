@@ -18,6 +18,7 @@
     <link rel="stylesheet" type="text/css" href="{{asset "css/normalize.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "css/default.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "css/nprogress.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/highlight.css"}}" />
 
     {{! Additional head data by ghost }
     {{ghost_head}}
@@ -31,6 +32,7 @@
     {{ghost_foot}}
     <script src="{{asset "js/jquery.sticky.js"}}"></script>
     <script src="{{asset "js/nprogress.js"}}"></script>
+    <script src="{{asset "js/highlight.pack.js"}}"></script>
     <script>
         // Show progress bar
         NProgress.start();
@@ -49,9 +51,13 @@
             NProgress.start();
         });
 
+        // Sticky navigation bar
         $(document).ready(function() {
             $("#blog-navigation").sticky({ topSpacing: 0 });
         });
+
+        // Syntax highlight
+        hljs.initHighlightingOnLoad();
     </script>
 </body>
 </html>
