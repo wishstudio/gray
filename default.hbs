@@ -17,6 +17,7 @@
     {{! Styles }}
     <link rel="stylesheet" type="text/css" href="{{asset "css/normalize.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "css/default.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/nprogress.css"}}" />
 
     {{! Additional head data by ghost }
     {{ghost_head}}
@@ -29,7 +30,25 @@
     {{! Additional body footer by ghost, mainly jQuery }}
     {{ghost_foot}}
     <script src="{{asset "js/jquery.sticky.js"}}"></script>
+    <script src="{{asset "js/nprogress.js"}}"></script>
     <script>
+        // Show progress bar
+        NProgress.start();
+
+        // Increase interval randomly
+        var interval = setInterval(function() { NProgress.inc(); }, 1000);
+
+        // Finish when page fully loaded
+        jQuery(window).load(function() {
+            clearInterval(interval);
+            NProgress.done();
+        });
+
+        // Start bar when exiting the page
+        jQuery(window).unload(function() {
+            NProgress.start();
+        });
+
         $(document).ready(function() {
             $("#blog-navigation").sticky({ topSpacing: 0 });
         });
